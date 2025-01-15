@@ -5,6 +5,11 @@ Technologies Used:
 - Jupyter Notebook
 - Python
 
+Terminology Used:
+- CNN (Convolutional Neural Network)
+- RNN (Recurrent Neural Network
+- NN (Neural Network)
+
 Packages Used:
 - numpy
 - librosa
@@ -30,7 +35,10 @@ Packages Used:
 7.) <ins>Matplotlib</ins>: Matplotlib is another well known library for being able to plot out and provide visual representations of data. I used this library to be able to show a step by step of what data should look like. This helped me in 
 visualizing what I was turning the audio files into (Frequency vs Time, Amplitude vs Time, etc.)
 
+## Recommended Steps for Going Through The Repo:
+**Step 1**: Please proceed to the "Learning" subdirectory. This is a walkthrough of all the pieces that we will be building. It will lead to better understanding of how Librosa works and how neural networks work
 
+**Step 2**: Proceed to the Genre Classification section. There you will see a preprocess file, a CNN classification file, and a NN classification file (named MusicGenreClassifier). This is where you can test on your own set of data. The "Instructions" file will explain how to run this and what differentiates the CNN from a regular NN
 
 ## Notes:
 
