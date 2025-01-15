@@ -9,6 +9,8 @@ Terminology Used:
 - CNN (Convolutional Neural Network)
 - RNN (Recurrent Neural Network
 - NN (Neural Network)
+- FFT (Fast Fourier Transform)
+- STFT (Short Time Fourier Transform)
 
 Packages Used:
 - numpy
