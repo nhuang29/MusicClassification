@@ -23,3 +23,25 @@ When loaded, the default graph that is shown is an Amplitude vs. Time graph. (as
 
 3.) matplotlib (aka plt) allows for the customization of the axes as well as the ultimate showing of the waveform
 
+
+### FFT's Explained:
+Besides Amplitude vs Time, we also would need an analysis of the frequencies that occur in the music file. This is what FFT (Fast Fourier Transform) is for. In short, a Fourier Transform (there are many types of them) changes an Amplitude Domain to a Frequency Domain. 
+
+This is where the 2nd part of the code comes in (as shown below):
+
+![image](https://github.com/user-attachments/assets/c836d9d4-7919-4c80-99a0-fd5d0268b305)
+
+### A couple of things to explain:
+1.) An FFT will render data from Amplitude vs. Time --> Magnitude vs. Frequency
+
+2.) fft = np.fft.fft(signal) feeds the signal into a fft 
+
+3.) magnitude = np.abs(fft)
+
+4.) frequency = np.linspace(0, sr, len(magnitude))
+
+5.) 
+
+6.) Lastly, you are updating the plot to contain the transformations that were conducted above. And you should get a graph that looks something like this:
+
+![image](https://github.com/user-attachments/assets/9a2a6274-d8b3-451b-a7bb-6bf79cb8cb72)
