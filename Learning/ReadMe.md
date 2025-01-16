@@ -25,7 +25,7 @@ When loaded, the default graph that is shown is an Amplitude vs. Time graph. (as
 
 
 ### FFT's Explained:
-Besides Amplitude vs Time, we also would need an analysis of the frequencies that occur in the music file. This is what FFT (Fast Fourier Transform) is for. In short, a Fourier Transform (there are many types of them) changes an Amplitude Domain to a Frequency Domain. 
+Besides Amplitude vs Time, we also would need an analysis of the frequencies that occur in the music file. This is what FFT (Fast Fourier Transform) is for. In short, a Fourier Transform (there are many types of them) changes an Amplitude Domain to a Frequency Domain. I plan on writing up a full summary of what fourier transform does but for now here's a link explaining that: [Fourier Transform in Action](https://www.youtube.com/watch?v=spUNpyF58BY)
 
 This is where the 2nd part of the code comes in (as shown below):
 
