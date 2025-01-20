@@ -42,6 +42,8 @@ visualizing what I was turning the audio files into (Frequency vs Time, Amplitud
 
 **Step 2**: Proceed to the Genre Classification section. There you will see a preprocess file, a CNN classification file, and a NN classification file (named MusicGenreClassifier). This is where you can test on your own set of data. The "Instructions" file will explain how to run this and what differentiates the CNN from a regular NN
 
+## My Story:
+Hello! My name is Nicholas and I have a deep interest in music and audio technology. This is my journey through the AI audio space! Stay tuned for more projects! 
 ## Notes:
 
 **IMPORTANT**: I wrote this in Jupyter Notebook. It can be run in PyCharm and any environment you please. 
